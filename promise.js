@@ -1,6 +1,6 @@
 
 
-const url = 'https://jsonplaceholder.typicode.com/posts?_limit=5&_deplay=3000'
+const url = 'https://jsonplaceholder.typicode.com/posts?_limit=20&_deplay=3000'
 async function main(){
     const r = await fetch(url)
     if (r.ok){
